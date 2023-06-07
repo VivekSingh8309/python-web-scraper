@@ -40,7 +40,6 @@ soup = BeautifulSoup(html_text,'lxml')
 soup
 
 
-# In[187]:
 
 
 jobs = soup.find_all('div',class_= 'srp-job-bx')
@@ -57,7 +56,6 @@ for job in jobs:
     print('')
 
 
-# In[ ]:
 
 
 
